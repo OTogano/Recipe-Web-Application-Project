@@ -1,0 +1,90 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+}
+.Topbar{
+    background-color: #96CEB4;
+    display: flex;
+    width: fit-content;
+    height: 155px;
+}
+.logo{
+    width: 190px;
+    height: 100px;
+}
+.imglogo{
+    max-width: 85px;
+    margin: 40px 0px 0px 54px;
+}
+.Title{
+    font-size: small;
+    align-self: center;
+}
+.SearchBar{
+    display: flex;
+    align-self:center;
+    margin-left: 96px;
+    background-color: white;
+    border-radius: 28px;
+    height: 41px;
+    padding-right: 15px;
+    width: 500px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);;
+}
+.recipeSearch{
+    border: none;
+    border-radius: 28px;
+    align-content: center;
+    height:38px;   
+    width: 470px;
+    text-align: center;
+}
+.search{
+    margin-left: 10px;
+    max-width: 15px;
+}
+.buttons{
+    margin-left: 175px;
+    align-self: center;
+    margin-right:72.4px;
+}
+.login{
+    margin-right: 10px;
+    width: 70px;
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+}
+.login:hover{
+    cursor: pointer;
+}
+.register{
+    background-color: black;
+    color: white;
+    width: 70px;
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+}
+.register:hover{
+    cursor: pointer;
+}
+.Bottombar{
+    background-color: #FFAD60;
+    height: 53px ;
+    width: 100%;
+}
+.recipes{
+    height: 100%;
+    margin-top: 15px;
+}
+.recipes a{
+    color: #FFFFFF;
+    text-decoration:none ;
+    font-size: 15px;
+    padding: 0px 100px 0px 100px;
+}
