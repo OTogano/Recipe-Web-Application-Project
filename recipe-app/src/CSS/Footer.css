@@ -1,0 +1,58 @@
+footer{
+    display: flex;
+    background-color: #FFEEAD;
+    position: fixed;
+    bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    height: 300px;
+}
+.NameNsocials{
+    margin-right: 55px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.Name{
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-wrap: nowrap;
+}
+.Socials{
+    display: flex;
+    margin-left: -10px;
+}
+.Navigations{
+    margin-top:50px ;
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    text-wrap: nowrap;
+}
+.Nav{
+    margin-bottom: 30px;
+}
+.contactinfo{
+    margin-top: 50px;
+    font-size: 24px;
+    margin-right: 40px;
+    text-wrap: nowrap;
+}
+.contactinfo p{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.about{
+    margin-top: 50px;
+    font-size: 24px;
+    margin-right: 40px;
+    text-wrap: nowrap;
+}
+.about p{
+    font-size: medium;
+    font-weight: 500;
+    line-height: 30px;
+}
