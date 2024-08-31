@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <header className="header">
                 <div className="Topbar">
-                    <div className="logo"><img className="imglogo" src={logo} /></div>
+                    <div className="logo"><a href="./"><img className="imglogo" src={logo} /></a></div>
                     <div className="Title">Rural Kitchen</div>
                     <div className="SearchBar">
                         <form>
@@ -19,7 +19,9 @@ const Header = () => {
                     </div>
                     <div className="buttons">
                         <button className="login">Log in</button>
+                        <a href="./Register">
                         <button className="register">Register</button>
+                        </a>
                     </div>
                 </div>
                 <div className="Bottombar">
