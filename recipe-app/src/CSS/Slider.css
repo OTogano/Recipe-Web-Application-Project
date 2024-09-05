@@ -1,0 +1,29 @@
+
+  .each-slide-effect > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    transition: transform 0.3s ease;
+  }
+
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 40px;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+
+  .each-slide-effect > a:hover{
+    transform: scale(0.9);
+    border-radius: 15px;
+  }
