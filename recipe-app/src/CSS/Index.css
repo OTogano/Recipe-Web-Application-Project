@@ -5,3 +5,14 @@
     height: 1000px;
     font-family: "Inter", sans-serif;
 }
+.container{
+    display: flex;
+    margin: 75px;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+.title {
+    margin-left: 100px;
+    font-size: 34px;
+    font-weight: bold;
+}
