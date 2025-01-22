@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "layout": "^2.2.0",
+    "primitives": "^0.1.8"
+  }
+}
