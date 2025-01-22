@@ -19,27 +19,27 @@ const Slider = () => {
     return (
         <Slide slidesToScroll={1} slidesToShow={3} indicators={true}>
             <div className="each-slide-effect">
-                <a href=""style={{ 'backgroundImage': `url(${images[2]})` }}>
+                <a href="http://localhost:3000/recipe/25"style={{ 'backgroundImage': `url(${images[2]})` }}>
                     <span>Potato Salad</span>
                 </a>
             </div>
             <div className="each-slide-effect">
-                <a href=""style={{ 'backgroundImage': `url(${images[3]})` }}>
+                <a href="http://localhost:3000/recipe/26"style={{ 'backgroundImage': `url(${images[3]})` }}>
                     <span>Steak</span>
                 </a>
             </div>
             <div className="each-slide-effect">
-                <a href=""style={{ 'backgroundImage': `url(${images[1]})` }}>
+                <a href="http://localhost:3000/recipe/16"style={{ 'backgroundImage': `url(${images[1]})` }}>
                     <span>Carbonara</span>
                 </a>
             </div>
             <div className="each-slide-effect">
-                <a href=""style={{ 'backgroundImage': `url(${images[0]})` }}>
+                <a href="http://localhost:3000/recipe/18"style={{ 'backgroundImage': `url(${images[0]})` }}>
                     <span>Chicken Pie</span>
                 </a>
             </div>
             <div className="each-slide-effect">
-                <a href=""style={{ 'backgroundImage': `url(${images[4]})` }}>
+                <a href="http://localhost:3000/recipe/19"style={{ 'backgroundImage': `url(${images[4]})` }}>
                     <span>Chicken Shawarma</span>
                 </a>
             </div>

@@ -1,0 +1,48 @@
+.mainContainer{
+    height: 900px;
+}
+.title{
+    color: 'black'; 
+    font-size: 28;
+    font-Family: 'Inter';
+    font-Weight: '700'; 
+    line-Height: 5;
+    letter-Spacing: 0.40;
+    word-Wrap: 'break-word';
+    padding-left:200px;
+}
+.Registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: "Inter", sans-serif;
+}
+.Registration form{
+    border: 0px #D9D9D9 solid;
+    border-radius: 8px;
+    padding: 30px -200px 170px 20px;
+    line-height: 30px;
+}
+.Type{
+    border: 1px #D9D9D9 solid;
+    border-radius: 8px;
+    padding:10px 525px 10px 10px
+}
+.Registration form div input{
+    border: 1px #D9D9D9 solid;
+    border-radius: 8px;
+    padding:10px 460px 10px 10px
+}
+.Register{
+    border: 1px #2c2c2c solid;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding:10px 305px 10px 291px;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    align-items: center;
+}
+.Register:hover{
+    cursor: pointer;
+}

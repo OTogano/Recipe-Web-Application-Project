@@ -18,18 +18,21 @@ margin-left: 16px;
     background-size: cover;
     margin-top: 16px;
     border-radius: 8px;
+    margin-left: 16px;
 }
 .food{
     line-height: 9px;
     margin-left: 16px;
+    font-size: 20px;
 }
 .rating{
     line-height: 9px;
-    margin-left: 16px;
+    margin-left: 20px;
     font-weight: bold;
 }
 .type{
     line-height: 9px;
     margin-left: 16px;
     color: gray;
+    font-size: 15px;
 }

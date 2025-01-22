@@ -63,6 +63,16 @@ header{
 .login:hover{
     cursor: pointer;
 }
+.addRecipe{
+    margin-right: 10px;
+    width: 90px;
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+}
+.addRecipe:hover{
+    cursor: pointer;
+}
 .register{
     background-color: black;
     color: white;

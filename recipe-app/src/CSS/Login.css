@@ -1,0 +1,35 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: "Inter", sans-serif;
+}
+.Login form{
+    border: 1px #D9D9D9 solid;
+    border-radius: 8px;
+    padding: 30px 20px 170px 20px;
+    line-height: 30px;
+}
+.Type{
+    border: 1px #D9D9D9 solid;
+    border-radius: 8px;
+    padding:10px 525px 10px 10px
+}
+.Login form div input{
+    border: 1px #D9D9D9 solid;
+    border-radius: 8px;
+    padding:10px 460px 10px 10px
+}
+.SignIn{
+    border: 1px #2c2c2c solid;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding:10px 291px 10px 291px;
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+    align-items: center;
+}
+.SignIn:hover{
+    cursor: pointer;
+}

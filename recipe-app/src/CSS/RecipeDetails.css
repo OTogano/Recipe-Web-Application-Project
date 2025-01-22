@@ -1,0 +1,38 @@
+.recipe-detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: inter;
+    height: 1100px;
+}
+.image_container{
+    height: 50%;
+    width: 50%;
+}
+.nameAndOwner{
+    height: 50%;
+    width: 50%;
+    margin-top: 45px;
+}
+.image{
+    border: 0px;
+    border-radius: 10px;
+    width: 484px;
+    height: 350px; 
+    margin: 74px;  
+}
+.ingredients{
+    height: 50%;
+    width: 40%;
+    margin-left:74px;
+}
+
+.instructions{
+    height: 50%;
+    width: 40%;
+    margin-left:53px;
+    margin-bottom: 100px;
+}
+.text{
+    text-decoration: underline;
+}
